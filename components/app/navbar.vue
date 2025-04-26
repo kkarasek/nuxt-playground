@@ -3,6 +3,7 @@
 		<ul class="flex gap-4">
 			<li><NuxtLink to="/">Counter</NuxtLink></li>
 			<li><NuxtLink :to="{ name: 'input' }">Input</NuxtLink></li>
+			<li><NuxtLink :to="{ name: 'data-fetching' }">Data Fetching</NuxtLink></li>
 		</ul>
 	</nav>
 </template>
